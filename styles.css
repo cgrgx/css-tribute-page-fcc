@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* Setting a base font size of 10px give us easier rem calculations 
+  Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+  font-size: 10px;
+}
+
+body {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+#main {
+  background-color: #eee;
+  text-align: center;
+  border-radius: 5px;
+  margin: 30px 8px;
+  padding: 15px;
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+#title {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+@media (max-width: 460px) {
+  #title {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+#main p {
+  padding-bottom: 10px;
+}
+#img-div {
+  background-color: white;
+  padding: 10px;
+  margin: 0;
+}
+#image {
+  height: auto;
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+.info-heading {
+  margin: 50px 0;
+  text-align: center;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+}
+li {
+  margin: 15px 0;
+  text-align: left;
+}
+.bold {
+  font-weight: bold;
+}
+.quote {
+  margin-top: 0 auto 40px auto;
+  font-style: italic;
+  text-align: left;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  max-width: 550px;
+}
+a {
+  color: #477ca7;
+}
+a:visited {
+  color: #74638f;
+}
